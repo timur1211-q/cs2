@@ -1,0 +1,93 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    
+}
+
+.menu{
+    display: flex;
+    text-decoration: none;
+}
+
+*{
+    font-family: "Rubik Gemstones", serif;
+    
+}
+
+.menu-link{
+    text-decoration: none;
+    padding: 20px;
+    transition: 0.4;
+}
+.logo{
+    width: 200px;
+}
+
+.hero-section{
+    background-image: url(img/ks.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    
+
+}
+
+.menu-link:hover{
+    color: rgb(165, 165, 165);
+}
+
+.hero-heading, .hero-heading-second{
+    font-size: 50px;
+    color: rgb(8, 0, 0);
+    text-align: center;
+    margin-top: 25%;
+    color: azure;
+}
+
+.hero-heading-second{
+    font-size: 40px;
+}
+
+.text-section-screenshots{
+    color: azure;
+    font-size: 40px;
+    text-align: center;
+}
+
+.screenshots{
+    background-color: orange;
+    margin-top: 20px;
+    
+}
+
+.images{
+    width: 500px;
+}
+    
+.images:hover{
+    filter: contrast(2)
+}
+
+.game-trailer iframe{
+    display: block;
+    margin: 0 auto;
+    width: 800;
+}
+
+.trailer-heading{
+    font-size: 40px;
+    justify-content: center;
+}
+
+.game-trailer{
+    background-color: orange;
+}
+
+.footer{
+    background-color: rgb(41, 41, 41);
+    text-align: center;
+    font-size: 31px;
+    color: cornsilk;
+    padding: 38px;
+    margin-top: 37;
+}
